@@ -1,4 +1,6 @@
-# project1
+# Group Project1
+
+https://perrycpf.github.io/sportsbox/.
 
 sPORTS bOX serves the sports lover; it is a place to view highlights, scores, and schedules of your favourite teams and leagues
 
