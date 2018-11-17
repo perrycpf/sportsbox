@@ -87,13 +87,13 @@ $(function () {
         var score =
          "<div class='col-2' id='block'><div class='d-flex'><div id='date'>" +
          moment(response.scoreboard.gameScore[i].game.date).format("MMM Do") +
-         "</div></div><div class='d-flex'>AWAY:&nbsp&nbsp<div>" +
+         "</div></div><div class='d-flex'>AWAY:&nbsp;&nbsp;<div>" +
          response.scoreboard.gameScore[i].game.awayTeam.Abbreviation +
-         "</div><div>&nbsp" +
+         "</div><div>&nbsp;" +
          response.scoreboard.gameScore[i].awayScore +
-         "</div></div><div class='d-flex'>HOME:&nbsp&nbsp<div>" +
+         "</div></div><div class='d-flex'>HOME:&nbsp;&nbsp;<div>" +
          response.scoreboard.gameScore[i].game.homeTeam.Abbreviation +
-         "&nbsp</div><div>&nbsp&nbsp" +
+         "&nbsp</div><div>&nbsp;&nbsp;" +
          response.scoreboard.gameScore[i].homeScore +
          "</div></div></div>";
 

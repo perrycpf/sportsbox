@@ -8,7 +8,6 @@ body {
     height: 100%;
     background-image: url("bg4.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
     margin-bottom: 5%;
 }
@@ -39,6 +38,10 @@ body {
     color:gainsboro;
     background-color: navy;
   } 
+#searchTab {
+    border: none;
+}
+
   .navbar-inverse .navbar-nav li a {
     color: royalblue;
   }
@@ -121,7 +124,7 @@ li {
 /* INNER TABS */
 
 div#schedule-box {
-    background-color: rgb(7, 7, 7);
+    /* background-color: rgb(7, 7, 7); */
     opacity: 50%;
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
@@ -134,7 +137,7 @@ div#schedule-box {
     width: 100%;
     text-transform: capitalize;
     font-size: 22px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 5px;
     text-align: left;
     color: skyblue;
 }
@@ -156,6 +159,10 @@ th.time-col-header, th.tickets-col-header {
 
 td {
     vertical-align: middle;
+    
+}
+.matchup-team-away {
+    padding-left: 5px;
 }
 
 table {
@@ -169,6 +176,12 @@ table {
 
 .matchup-teams {
     text-align: left;
+}
+
+#matchup-page {
+    background: black;
+    /* padding-left: 5px;
+    padding-right: 5px; */
 }
 
 #news {
